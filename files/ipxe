@@ -1,6 +1,0 @@
-#!ipxe
-
-kernel vmlinuz k3os.mode=install k3os.debug console=ttyS1,115200 harvester.install.automatic=true harvester.install.config_url=https://raw.githubusercontent.com/bk201/hvst-ipxe/main/files/config-create.yaml
-initrd initrd
-boot
-
