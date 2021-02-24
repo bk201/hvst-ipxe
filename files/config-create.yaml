@@ -11,4 +11,5 @@ install:
   mgmt_interface: eth0
   device: /dev/sda
   iso_url: https://github.com/rancher/harvester/releases/download/v0.1.0/harvester-amd64.iso
+  tty: /dev/ttyS1,115200n8
 
