@@ -1,5 +1,5 @@
 
-server_url: https://86.109.15.93:6443
+server_url: https://86.109.15.131:6443
 token: token
 os:
   hostname: node1
