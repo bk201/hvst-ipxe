@@ -1,0 +1,15 @@
+
+server_url: https://<YOUR_CLUSTER_IP_HERE>:6443
+token: token
+os:
+  hostname: node1
+  ssh_authorized_keys:
+  - ssh-rsa ... # replace with your public key
+  password: FiSDT39g0
+install:
+  mode: join
+  mgmt_interface: eth0
+  device: /dev/sda
+  iso_url: https://releases.rancher.com/harvester/master/harvester-amd64.iso
+  tty: ttyS1,115200n8
+
